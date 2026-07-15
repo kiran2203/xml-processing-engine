@@ -4,10 +4,10 @@ spring:
     name: xml-processing-engine
 
   datasource:
-    url: jdbc:mysql://localhost:3306/xml_processing_engine
+    url: jdbc:sqlserver://localhost:1433;databaseName=xml_processing_engine;encrypt=true;trustServerCertificate=true
     username: root
     password: Asdfg!@1234
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
 
   jpa:
     hibernate:
