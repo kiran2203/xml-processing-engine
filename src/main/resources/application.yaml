@@ -30,3 +30,7 @@ logging:
 
   level:
     org.flywaydb: INFO
+
+processor:
+  instance:
+    name: ${HOSTNAME:INSTANCE-1}
